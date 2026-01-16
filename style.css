@@ -84,6 +84,7 @@ body {
 .greeting-text {
     font-size: 1rem;
     font-weight: 900;
+    max-width: 85%;
 }
 
 .form-container {
@@ -128,6 +129,8 @@ body {
     align-content: flex-start;
     align-items: flex-start;
 }
+
+
 
 
 

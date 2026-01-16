@@ -99,7 +99,21 @@ body {
 
 /* Form styling */
 
-.signup {
+.form-row {
+    margin-bottom: 1rem;
     display: flex;
+    flex-direction: column;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    display: flex;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
 }

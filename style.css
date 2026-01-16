@@ -4,6 +4,8 @@ p {
    font-style: normal;
 }
 
+
+
 .sidebar {
     background-image: url(images/james-armes-waterfall-unsplash.jpg);
     background-size: cover;
@@ -45,6 +47,8 @@ p {
 
 .sidebar-credit {
     color: white;
+    position: relative;
+    top: 75%;
 }
 
 

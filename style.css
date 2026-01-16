@@ -1,7 +1,8 @@
-p, h2 {
+:root {
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    font-weight: normal;
    font-style: normal;
+   --form-padding: 1em;
 }
 
 body {
@@ -74,7 +75,7 @@ body {
 
 .greeting-container {
     background-color: whitesmoke;
-    padding: 2rem;
+    padding: var(--form-padding);
     flex: 1;
     display: flex;
     align-items: flex-end;
@@ -103,6 +104,16 @@ body {
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+    padding-left: var(--form-padding);
+    padding-right: var(--form-padding);
+}
+
+.form-row input {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 3px;
 }
 
 .form-container form {
@@ -117,3 +128,6 @@ body {
     align-content: flex-start;
     align-items: flex-start;
 }
+
+
+

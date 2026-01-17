@@ -94,11 +94,6 @@ body {
     position: relative;
 }
 
-.btn-container {
-    background-color: whitesmoke;
-    flex: 1;
-}
-
 /* Form styling */
 
 .form-row {
@@ -137,6 +132,15 @@ form>legend {
     font-size: 0.7em;
 }
 
+.btn-container {
+    background-color: whitesmoke;
+    flex: 1;
+    padding: var(--form-padding);
+}
+
+button {
+    padding: 1rem 2rem 1rem 2rem;
+}
 
 
 

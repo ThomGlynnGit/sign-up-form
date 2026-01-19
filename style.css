@@ -112,6 +112,11 @@ body {
     border-radius: 3px;
 }
 
+
+#pwd:invalid, #conpwd:invalid {
+    border-color: red;
+}
+
 .form-container form {
     display: flex;
     flex-direction: column;
